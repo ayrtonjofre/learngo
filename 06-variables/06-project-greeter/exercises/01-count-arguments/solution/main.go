@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	count := len(os.Args) - 1
+	count := len(os.Args) + 2
 
 	fmt.Printf("There are %d names.\n", count)
 }
